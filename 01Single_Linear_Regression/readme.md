@@ -49,7 +49,7 @@ self.final_theta = X_T_X_I_X_T_X_T_y
 4. 按梯度方向下降的方向更新每一个参数，$\alpha$为学习率：
    $$\theta_{i}=\theta_{i}-\alpha \frac{\partial}{\partial \theta} J(\theta)$$
 5. 重复以上步骤，直至达到预定精度
-> 其中，\alpha 表示步长或者是学习率，如果学习率太小，梯度下降可能会很慢；如果学习率太大，那么梯度下降可能会越过最低点，甚至可能无法收敛或者发散。
+> 其中，$\alpha$ 表示步长或者是学习率，如果学习率太小，梯度下降可能会很慢；如果学习率太大，那么梯度下降可能会越过最低点，甚至可能无法收敛或者发散。
 
 ![](D:\Download\oW096qlMP4GlWxR9TRCXCbEdANt0MPz3cZQfg5AuA3ePP1560695482813.gif)
 
